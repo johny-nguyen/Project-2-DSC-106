@@ -210,19 +210,24 @@
 
                 <p>
                     Working on this project with the NYPD civilian complaints dataset made it clear that data visualization is far from neutral. 
-                    Using the same dataset, we were able to construct two convincing but opposing narratives about racial discrimination simply through design choices. While identifying trends across ethnic groups was relatively straightforward, the more difficult task was designing a visualization that downplayed those disparities. This required carefully applying techniques like normalization, filtering, and indexing to reduce visible differences without making those choices obvious.
+                    Using the same dataset, we were able to construct two convincing but opposing narratives about racial discrimination purely through design choices. 
+                    While identifying trends across ethnic groups was relatively straightforward, the more difficult task was intentionally designing visualizations that both emphasized and downplayed those disparities. 
+                    This required carefully applying transformations such as normalization, filtering, grouping, and visual emphasis to shift interpretation without altering the underlying data.
                 </p>
 
                 <p>
-                    One of the most surprising aspects of this process was how effective relatively simple transformations were. 
-                    Converting raw complaint counts into normalized values or selectively removing categories significantly changed how the data was interpreted. 
-                    Visual emphasis through color and line weight further influenced which groups stood out. These techniques did not alter the underlying data, 
-                    but they strongly shaped the viewer's perception and conclusions.
+                    One of the most surprising aspects of this process was how impactful relatively simple techniques were. 
+                    In the "FOR" visualization, converting raw counts into per-capita values and emphasizing certain groups through color and line thickness made disparities appear more pronounced and persistent. 
+                    In contrast, in the "AGAINST" visualization, normalizing each group to 100%, grouping multiple complaint outcomes into broader categories, and using a uniform color palette made distributions appear nearly identical across ethnicities. 
+                    Although both visualizations relied on the same dataset, these structural choices significantly changed which patterns were visible and how viewers interpreted them.
                 </p>
 
                 <p>
-                    This project reshaped our understanding of ethical visualization. 
-                    Ethical design is not only about avoiding incorrect data, but also about presenting information in a way that is fair and transparent. Persuasive choices are inevitable, but they become misleading when they obscure key context or exaggerate trends. Ultimately, responsible visualization should aim to inform while preserving the integrity of the data, rather than steering viewers toward a predetermined conclusion.
+                    This project reshaped our understanding of ethical visualization by highlighting how easily persuasion can blur into deception. 
+                    Ethical analysis is not only about avoiding incorrect data, but also about being transparent in how design choices influence perception. 
+                    Persuasive techniques such as normalization and aggregation can be appropriate when they clarify comparisons, but they become misleading when they obscure important context, hide differences in scale, or remove meaningful detail. 
+                    In our case, the same methods that clarified disparities in one visualization helped conceal them in another. 
+                    This suggests that the boundary between acceptable persuasion and misleading design is not defined by the technique itself, but by whether it preserves or distorts the viewer's ability to understand the full context of the data.
                 </p>
             </section>
         </main>
