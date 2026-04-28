@@ -173,18 +173,39 @@
 
                 <ul>
                     <li><strong>Transforming the data to show complaints per 1000 residents</strong></li>
-                    <p>Score: 2</p>
+                    <p>Score: 1.5</p>
                     <p><strong>Rationale:</strong> Instead of showing raw numbers, this transformation allows for a more reliable comparison between ethnic groups. 
                         We normalize against each group's population size by accounting for the fact that each ethnic group differ in size. This makes the visualization 
                         more persuasive by plotting the data along the same scale, allowing people
-                         to observe the differences especially between Black/Hispanic people versus Asian/White people.</p>
+                        to observe the differences especially between Black/Hispanic people versus Asian/White people.
+                        One possible limitation is that the transformation can also be misleading if the reader is not familiar with the scale. For instance, they might interpret a data point
+                        as 1 complaint rather than 1 complaints per 1000 residents.</p>
 
 
-                    <li><strong>Opting for a Sequential Color Scheme</strong></li>
-                    <p> Score: 0 </p>
+                    <li><strong>Sequential Color Scheme</strong></li>
+                    <p> Score: 1 </p>
                     <p><strong>Rationale:</strong> Using a sequential color scheme helps to visually represent the data in a logical order, making it easier for viewers to distinguish which ethnic group is the most affected. 
                         This makes the visualization more persuasive because the bolder colors draw more attention toward Black and Hispanic groups. Additionally, the red colors are used to highlight and make the line seem more concerning to viewers.
-                        One possible limitation is those with colorblindness might be prone to misinterpreting the colors.</p>
+                        One possible limitation is those with colorblindness might be prone to misinterpreting the colors. We also considered to use a different color scheme based on ethnicity, but it would be reinforcing dangerous stereotypes, so we opted to use
+                        darker colors and have it become lighter</p>
+
+                    <li><strong>Line Plot on Four Ethnic Groups</strong></li>
+                    <p> Score: 2 </p>
+                    <p><strong>Rationale:</strong> By plotting using a line plot, we are able to effectively persuade viewers by showing the increase of complaints between ethnicities over time. We chose to only plot based on four of the Ethnic Groups because the other groups didn't particularly possess any meaningful information
+                        that would persuade users in a certain way. The other groups included "Unknown", "Other Race", "Refused", and "American Indian". For the first three groups, we can't really draw any
+                        conclusions about them since we don't know their ethnic group is and it would take away from our original proposition. For the "American Indian" group, the amount of complaints that were
+                        submitted were neglible as they had a very low number of complaints which may be seen as selective or "cherry picking". These changes make our visualization more persuasive since we can keep the focus on the more
+                        meaningful data points. As for alternative marks, we considered using a bar chart, but this would not be as effective since we were working with complaints reported over time.</p>
+
+                    <li><strong>Used data on all complaint types, rather than just certain types</strong></li>
+                    <p> Score: 1 </p>
+                    <p><strong>Rationale:</strong> We chose to use data on all complaint types. This makes our visualization more persuasive because we can see the full scope of complaints over time making the trend more noticeable.
+                    One limitation might be that the visualization can be seen as broad making the viewer unable to make a reasonable conclusion about the rise in complaints.
+                    One alternative we considered was filtering the data by the complaint type "Abuse of Authority" since it helps the viewer make the connection that maybe the complaints might be a result of a race profiling problem.
+                    Additionally, it allows us to potentially narrow down the problem to a specific type of complaint which makes it more insightful to the viewer. However, We chose not to filter by this complaint type because only specificing
+                    one type of complaint disregards the other complaint types that might also play a role in the grand scheme of things.
+
+                    </p>
                 </ul>
             </section>
 
@@ -208,7 +229,13 @@
             <section>
                 <h2>Final Reflection</h2>
 
-                <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+                <p>For the proposition arguing for Racial Discrimination being Rampant, we found that the design process was pretty straightforward.
+                    We think that the data was pretty clear in showing that there is a significant relationship between ethnicities and the total of complaints.
+                    What was surprising is that Asian people had the lowest amount of complaints per 1000 residents since they are also considered a minority. The design choices for 
+                    this first visualization were leaning more toward persuasive rather than deceptive since we didn't really cherry picked datapoints and tried to keep everything on the same scale.
+                </p>
+
+
             </section>
         </main>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c822b88e119346678db149ed7b7721c9","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
