@@ -112,6 +112,10 @@
                 text-align: center;
                 background: white;
 
+                img{
+                    max-width: 100%;
+                }
+
                 > figcaption {
                     font: 500 75% var(--font-sans);
                     background: var(--color-neutral-95);
@@ -148,26 +152,39 @@
                 Persuasive or Deceptive Visualization?
             </h1>
 
-            <p><strong>Your Name</strong> — <em>Your UCSD Email Address</em></p>
+            <p><strong>Johny Nguyen</strong> — <em>jon009@ucsd.edu</em></p>
+            <p><strong>Sohan Shingade</strong> — <em>sshingade@ucsd.edu</em></p>
+            <p><strong>Krish Desai</strong> — <em>ksdesai@ucsd.edu</em></p>
         </header>
 
         <main>
-            <h2>Proposition: [STATE PROPOSITION]</h2>
+            <h2>Proposition: Racial Discrimination is Rampant; Clearly underlined by NYPD complaints
+</h2>
 
             <section>
                 <h3>FOR the Proposition</h3>
 
                 <figure>
-                    <img src="IMAGE_FILENAME" alt="" />
-                    <figcaption>BRIEF CAPTION HERE.</figcaption>
+                    <img src="/images/LinePlot.png" alt="lineplot" />
+                    <figcaption>Complaints per 1000 Residents over time for Different Ethnic Groups.</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
+                    <li><strong>Transforming the data to show complaints per 1000 residents</strong></li>
+                    <p>Score: 2</p>
+                    <p><strong>Rationale:</strong> Instead of showing raw numbers, this transformation allows for a more reliable comparison between ethnic groups. 
+                        We normalize against each group's population size by accounting for the fact that each ethnic group differ in size. This makes the visualization 
+                        more persuasive by plotting the data along the same scale, allowing people
+                         to observe the differences especially between Black/Hispanic people versus Asian/White people.</p>
+
+
+                    <li><strong>Opting for a Sequential Color Scheme</strong></li>
+                    <p> Score: 0 </p>
+                    <p><strong>Rationale:</strong> Using a sequential color scheme helps to visually represent the data in a logical order, making it easier for viewers to distinguish which ethnic group is the most affected. 
+                        This makes the visualization more persuasive because the bolder colors draw more attention toward Black and Hispanic groups. Additionally, the red colors are used to highlight and make the line seem more concerning to viewers.
+                        One possible limitation is those with colorblindness might be prone to misinterpreting the colors.</p>
                 </ul>
             </section>
 
